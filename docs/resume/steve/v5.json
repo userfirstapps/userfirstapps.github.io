@@ -1,0 +1,540 @@
+{
+    "version":5,
+    "min":1,
+    "updated":1612494099000,
+    "language":"en-CA",
+    "point":"\u2022",
+    "pdf":"http://steventucker.info/dev/v1/en/StevenTucker.pdf",
+    "categories":[
+        {
+            "display":"Highlights",
+            "deeplink":"hl",
+            "groups":[
+                {
+                    "name":"Highlights",
+                    "description":"",
+                    "date":"",
+                    "points":[
+                        {
+                            "name":"Programming",
+                            "desc":"21 Years Experience (Self taught since Junior High - 2000)"
+                        },
+                        {
+                            "name":"Mobile",
+                            "desc":"14 Years Experience (Since Palm Pilot in 2007)"
+                        },
+                        {
+                            "name":"Android",
+                            "desc":"10 Years Experience (Since The Score in 2010)"
+                        },
+                        {
+                            "name":"Languages",
+                            "desc":"Kotlin - 1.5 Years, Java - 13 Years"
+                        },
+                        {
+                            "name":"Lead",
+                            "nameDest":{
+                                "cat":"exp",
+                                "term":"Lead"
+                            },
+                            "desc":"6 Years of various team sizes from 1 to 20"
+                        },
+                        {
+                            "name":"Financial",
+                            "desc":"3 Years - Scotiabank, TD Universal App, uGo Wallet (TD and PCF), Central One"
+                        },
+                        {
+                            "name":"Multimedia",
+                            "desc":"2.5 years - The Score, Bell Media, Rogers Media",
+                            "descLinks":[
+                                {
+                                    "src":"The Score",
+                                    "dest":{
+                                        "cat":"exp",
+                                        "term":"The Score"
+                                    }
+                                },
+                                {
+                                    "src":"Bell Media",
+                                    "dest":{
+                                        "cat":"exp",
+                                        "term":"Bell Media"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name":"Patterns",
+                            "desc":"MVVM, MVP, MVC, SOLID, Eventbus"
+                        },
+                        {
+                            "name":"Specialized Experience",
+                            "desc":"Bluetooth, RFID, Encryption, Hybrid, RESTful APIs, PUSH"
+                        },
+                        {
+                            "name":"Testing",
+                            "desc":"JUnit, Mockito, Espresso, Interceptors, Appium"
+                        },
+                        {
+                            "name":"Technologies",
+                            "desc":"Git, Studio, Jira, Confluence, Hockey, Firebase, Jenkins, JavaDocs, SQL, Looper"
+                        },
+                        {
+                            "name":"Older Technologies",
+                            "desc":"SVN, Eclipse/VS, Tracker, Crashlytics"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "display":"Professional Experience",
+            "deeplink":"exp",
+            "groups":[
+{
+                    "name":"Senior Android Developer",
+                    "description":"Walmart",
+                    "date":"Mar 2020 – Current",
+                    "points":[
+                        {
+                            "name":"Android",
+                            "desc":"Main responsibility was to add and fix Android features"
+                        },
+                        {
+                            "name":"Migration",
+                            "desc":"Regularly assisted with migrating from native to React Native"
+                        },
+                        {
+                            "name":"Automation",
+                            "desc":"We assisted with automated testing using Appium, and builds with Looper"
+                        }
+                    ]
+                },
+                {
+                    "name":"Principle Android Developer",
+                    "description":"Trader Corp.",
+                    "date":"Jun 2019 – Nov 2019",
+                    "points":[
+                        {
+                            "name":"Architect",
+                            "desc":"Responsible for modularizing the codebase and designing new libraries"
+                        },
+                        {
+                            "name":"Android Lead",
+                            "desc":"Mentor new and existing team members. Manage technical issues within Android team"
+                        },
+                        {
+                            "name":"Developer",
+                            "desc":"Implement features (push, re-engagement), bug fixing, recommend improvements"
+                        }
+                    ]
+                },
+                {
+                    "name":"Mobile Technical Lead",
+                    "description":"Scotiabank (Caribbean)",
+                    "date":"Oct 2018 – Mar 2019",
+                    "points":[
+                        {
+                            "name":"Lead",
+                            "desc":"Lead technical discussions and solutions for a new mobile app"
+                        },
+                        {
+                            "name":"Team",
+                            "desc":"Helped organize new team with agile practices and training related to mobile"
+                        },
+                        {
+                            "name":"Android",
+                            "desc":"Architected Android codebase and best practices"
+                        },
+                        {
+                            "name":"Security",
+                            "desc":"Scanned and implemented security features"
+                        }
+                    ]
+                },
+                {
+                    "name":"Senior Android Developer / Team Lead",
+                    "description":"Compass Digital",
+                    "date":"Mar 2017 – May 2018",
+                    "points":[
+                        {
+                            "name":"Bonapp",
+                            "desc":"Architect and implement menu and ordering app"
+                        },
+                        {
+                            "name":"Core Libraries",
+                            "desc":"Created libraries to make components reusable and testable"
+                        }
+                    ]
+                },
+                {
+                    "name":"Senior Android Developer / Team Lead",
+                    "description":"TD Canada Trust",
+                    "date":"Aug 2016 – Feb 2017",
+                    "points":[
+                        {
+                            "name":"Universal App",
+                            "desc":"Helped lead a team to refactor UI to support tablet"
+                        },
+                        {
+                            "name":"DCX Liaison",
+                            "desc":"SME for UI, created shared components from guide, addressed dev questions"
+                        },
+                        {
+                            "name":"Profile & Settings",
+                            "desc":"Helped lead a team to add profiles and rewrite settings"
+                        }
+                    ]
+                },
+                {
+                    "name":"Senior Android Developer",
+                    "description":"Bell Media Inc.",
+                    "date":"May 2015 – Apr 2016",
+                    "points":[
+                        {
+                            "name":"One Player",
+                            "desc":"Rewrite and maintain video player library using best practices and design patterns"
+                        },
+                        {
+                            "name":"CTV, Discovery, Comedy, Space, TSN, RDS",
+                            "desc":"Maintained and updated shared code base"
+                        },
+                        {
+                            "name":"TMN, BNN, CraveTV",
+                            "desc":"Updated code base with One Player"
+                        },
+                        {
+                            "name":"Processes",
+                            "desc":"Added tests, documentation, sample apps, and release notes to library"
+                        }
+                    ]
+                },
+                {
+                    "name":"Android Developer",
+                    "description":"Normative Design",
+                    "date":"Dec 2014 – Feb 2015",
+                    "points":[
+                        {
+                            "name":"Pillar To Post",
+                            "desc":"Wrote Android version of iOS real estate app"
+                        }
+                    ]
+                },
+                {
+                    "name":"Android Developer",
+                    "description":"ClearBridge Mobile Inc.",
+                    "date":"Apr 2014 – Nov 2014",
+                    "points":[
+                        {
+                            "name":"USA Today",
+                            "desc":"Updated and maintained app, enhanced user experience"
+                        }
+                    ]
+                },
+                {
+                    "name":"Agile Engineer",
+                    "description":"Extreme Labs (Acquired by Pivotal Labs)",
+                    "date":"Sep 2013 – Mar 2014",
+                    "points":[
+                        {
+                            "name":"uGo Wallet",
+                            "desc":"Architected mobile wallet using end to end encryption, SIM applets, NFC/RFID"
+                        },
+                        {
+                            "name":"XL Studio",
+                            "desc":"Added automated project creation to prepopulate git repo with code base"
+                        }
+                    ]
+                },
+                {
+                    "name":"Developer",
+                    "description":"Rogers",
+                    "date":"Dec 2012 – Apr 2013",
+                    "points":[
+                        {
+                            "name":"Rogers/FIDO My Account",
+                            "desc":"Added new views for dynamically created interactive layouts"
+                        }
+                    ]
+                },
+                {
+                    "name":"Full Stack Mobile Developer",
+                    "description":"Stuck On Inc.",
+                    "date":"Nov 2012 – Current",
+                    "points":[
+                        {
+                            "name":"ESL Helper",
+                            "desc":"Solution/Software Architect, Managed team of 20 for services, content, design"
+                        },
+                        {
+                            "name":"Conference Demo",
+                            "desc":"Video conference call demo with private and public chat rooms"
+                        },
+                        {
+                            "name":"Weather Demo",
+                            "desc":"Weather app using 3rd party graphs, REST API, GPS and maps"
+                        },
+                        {
+                            "name":"Giofi",
+                            "desc":"Solution Architect of Fashion app for client"
+                        },
+                        {
+                            "name":"Environment",
+                            "desc":"Custom Jira, Github, HipChat, Automated uploads"
+                        }
+                    ]
+                },
+                {
+                    "name":"Software Engineer / Team Lead",
+                    "description":"Zynga Inc.",
+                    "date":"Jul 2011 – Oct 2012",
+                    "points":[
+                        {
+                            "name":"Zynga Poker",
+                            "desc":"Added features, bug fixes, eventually lead team"
+                        },
+                        {
+                            "name":"Words With Friends",
+                            "desc":"Assisted with feature development"
+                        },
+                        {
+                            "name":"GDK",
+                            "desc":"Implemented core library for game development, lead team for some components"
+                        },
+                        {
+                            "name":"Slots With Friends",
+                            "desc":"Solo team for developing slots demo app"
+                        },
+                        {
+                            "name":"Solitaire",
+                            "desc":"Built reusable library for card games"
+                        },
+                        {
+                            "name":"Reports",
+                            "desc":"Profiled pages, optimized SQL calls, and added caching"
+                        }
+                    ]
+                },
+                {
+                    "name":"Software Developer",
+                    "description":"Five Mobile Inc. (Acquired by Zynga)",
+                    "date":"Jul 2010 – Jul 2011",
+                    "points":[
+                        {
+                            "name":"Cineplex",
+                            "desc":"Wrote UI for entire app"
+                        },
+                        {
+                            "name":"The Score",
+                            "desc":"Added sports and maintained code base using cross platform design"
+                        }
+                    ]
+                },
+                {
+                    "name":"Junior Software Developer",
+                    "description":"Cathexis Inc. (Became IDBlue Inc.)",
+                    "date":"2007 – 2008",
+                    "points":[
+                        {
+                            "name":"ID Blue",
+                            "desc":"Exposure to debugging from Oscilloscope to C, C++, C#, over Serial, Bluetooth, USB"
+                        },
+                        {
+                            "name":"Drivers",
+                            "desc":"Wrote C++ drivers for communicating with device and marshaled it C#"
+                        },
+                        {
+                            "name":"Demos",
+                            "desc":"Wrote Demos in C# and XaML for clients including Bill Gates"
+                        }
+                    ]
+                },
+                {
+                    "name":"Programmer",
+                    "description":"Independant tasks",
+                    "date":"2000 – 2007",
+                    "points":[
+                        {
+                            "name":"Web",
+                            "desc":"Bio pages for university, restaurant menus, Tic Tac Toe game, Utils for work and school"
+                        },
+                        {
+                            "name":"Web POS",
+                            "desc":"Wrote ASP POS for bridal rental company"
+                        },
+                        {
+                            "name":"Apps",
+                            "desc":"Wrote C# app for Softball league for managing game data, attempted C# DirectX game"
+                        }
+                    ]
+                }            
+            ]
+        },
+        {
+            "display":"Education & Certifications",
+            "deeplink":"ed",
+            "groups":[
+                {
+                    "name":"Bachelors",
+                    "description":"Memorial University of Newfoundland",
+                    "date":"2003 – 2007",
+                    "points":[
+                        {
+                            "name":"Majors",
+                            "desc":"Computer Science, Business Administration"
+                        },
+                        {
+                            "name":"Minors",
+                            "desc":"Math, Psychology"
+                        },
+                        {
+                            "name":"Extracurricular",
+                            "desc":"VP of Events at International Student Centre, working full-time"
+                        },
+                        {
+                            "name":"Graduation",
+                            "desc":"Incomplete to pursue career opportunities and take care of family"
+                        }
+                    ]
+                }
+            ]
+        }
+,
+        {
+            
+"display":"Awards & Skills",
+            "deeplink":"ash",
+            "groups":[
+                
+                
+                {
+                    "name":"TD ACT",
+                    "description":"Monthly recognition for going above and beyond",
+                    "date":"Jan 2017"
+                },
+                {
+                    "name":"Imagine Cup",
+                    "description":"Ranked 16th in the world for Logic among students",
+                    "date":"2005"
+                },
+                {
+                    "name":"Robotics",
+                    "description":"Our team made it to nationals for building a robot",
+                    "date":"2001"
+                },
+                {
+                    "name":"Chess",
+                    "description":"2nd Place provincially",
+                    "date":"2003"
+                },
+                {
+                    "name":"Math",
+                    "points":[
+                        {
+                            "name":"Math contest",
+                            "desc":"1st Place in Newfoundland (2002)"
+                        },
+                        {
+                            "name":"Pascal (Grade 9 Only)",
+                            "desc":"1st Place provincially while in Grade 9 (2000)"
+                        },
+                        {
+                            "name":"Pascal (Grade 9 Only)",
+                            "desc":"6th Place provincially while in Grade 8 (1999)"
+                        }
+                    ]
+                },
+                {
+                    "name":"Rubix Cube",
+                    "description":"Can complete in under 3 minutes",
+                    "date":"Current"
+                }
+            ]
+        }
+,
+{
+"display":"Hobbies",
+"deeplink":"hob",
+"groups":[
+{
+"name":"Teaching Android",
+"description":"I was teaching a class of 10 in my spare time, mainly weekends",
+"date":"2019 – 2020"
+},
+{
+"name":"DVT",
+"description":"Been designing my own Architecture. Testing implementation now",
+"date":"2020 – Current"
+},
+{
+"name":"Walks",
+"description":"When it's warm I like to go for scenic walks"
+},
+{
+"name":"Do It Yourself",
+"points":[
+{
+"name":"King Bed",
+"desc":"Built a custom bedframe with drawers, shelves, smart lights/speakers (2020)"
+},
+{
+"name":"Double Queen",
+"desc":"Built a bedframe to fit 2 queen mattresses (2020)"
+},
+{
+"name":"Balcony",
+"desc":"Built custom smart sofa set, tables, chairs to exact size of balcony (2020)"
+}
+,
+{
+"name":"PC + Desk",
+"desc":"Built desk with 12 4k monitors and top of the line dev system (2020)"
+}
+]
+},
+{
+"name":"Japanese",
+"description":"I've been learning Japanese on the side, but recently haven't had opportunity",
+"date":"2013 – Current"
+},
+
+{
+"name":"Side Projects",
+"points":[
+{
+"name":"ESL Helper",
+"desc":"Built an app to help ESL student to come, live, study, and work (2015 – 2019)"
+},
+{
+"name":"PinPonPlus",
+"desc":"Building an app for delivery and in-store menus (2019 – Current)"
+},
+{
+"name":"E-Shop",
+"desc":"Building an app for assisting with in-store shopping (2018 – Current)"
+}
+,
+{
+"name":"EasyNote",
+"desc":"I made an app to make it easier to write and sort notes (2016 – 2018)"
+}
+,
+{
+"name":"Health Watch",
+"desc":"Worked with nurses to build my own app to see my health data (2018 – 2020)"
+}
+,
+{
+"name":"Others",
+"desc":"About 20 other ideas with some level of development, but less promising"
+}
+]
+},
+{
+"name":"Netflix",
+"description":"I find it a good way to clear my head"
+}
+]
+}
+    ]
+}
