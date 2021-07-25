@@ -1,0 +1,25 @@
+{"parks":[
+
+{
+"id": "",
+"name":"",
+"lat":0.0,
+"lon":0.0,
+"desc":"",
+"images":[
+	{
+	"url":"",
+	"thumb":"",
+	}
+],
+"props":{
+	"washrooms":true,
+	"tables":false
+},
+"details":{
+	"Chairs":"Many"
+	}
+
+}
+
+]}
