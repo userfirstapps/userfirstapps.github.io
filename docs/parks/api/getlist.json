@@ -6,10 +6,18 @@
 "lat":0.0,
 "lon":0.0,
 "desc":"",
+"note":"",
+"rating":3,
+"size":"s",
+"playground":{
+"ground":""
+	
+},
+
 "images":[
 	{
 	"url":"",
-	"thumb":"",
+	"thumb":""
 	}
 ],
 "props":{
