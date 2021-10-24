@@ -1,33 +1,92 @@
 {"parks":[
-
-{
-"id": "",
-"name":"",
-"lat":0.0,
-"lon":0.0,
-"desc":"",
-"note":"",
-"rating":3,
-"size":"s",
-"playground":{
-"ground":""
-	
-},
-
-"images":[
 	{
-	"url":"",
-	"thumb":""
+		"id":"2",
+		"name":"Ferrand Drive Park",
+		"lat":43.7199393,
+		"lon":-79.3326493,
+		"desc":"Eglinton Ave E x Don Mills RD",
+		"note":"Flemingdon park area",
+		"rating":3,
+		"images":[]
+	},
+	{
+		"id":"3",
+		"name":"Talwood Park",
+		"lat":43.740235,
+		"lon":-79.356188,
+		"desc":"Leslie St x Lawrence Ave E",
+		"note":"In Don Mills trail",
+		"rating":3,
+		"images":[]
+	},
+	{
+		"id":"4",
+		"name":"Howard Talbot Park",
+		"lat":43.7101896,
+		"lon":-79.3712157,
+		"desc":"Eglinton Ave E x Bayview Ave",
+		"note":"",
+		"rating":4,
+		"images":[]
+	},
+	{
+		"id":"5",
+		"name":"Sherwood Park",
+		"lat":43.7175266,
+		"lon":-79.3879309,
+		"desc":"Mt Pleasant Rd x Blythwood Rd",
+		"note":"In Sherwood Park trail",
+		"rating":5,
+		"images":[]
+	},
+	{
+		"id":"6",
+		"name":"Linkwood Lane Park",
+		"lat":43.7159799,
+		"lon":-79.324504,
+		"desc":"Flemingdon Park area",
+		"note":"Next to Flemingdon Park",
+		"rating":4,
+		"images":[]
+	},
+	{
+		"id":"7",
+		"name":"Trace Manes Park",
+		"lat":43.7061602,
+		"lon":-79.3676487,
+		"desc":"Millwood Rd x between Bayview Ave and Laird Dr",
+		"note":"Gates",
+		"rating":5,
+		"images":[]
+	},
+	{
+		"id":"8",
+		"name":"Warner Park",
+		"lat":43.7244194,
+		"lon":-79.3059425,
+		"desc":"Eglington Ave E x Victoria Park Ave",
+		"note":"Newer equipment ",
+		"rating":3,
+		"images":[]
+	},
+	{
+		"id":"9",
+		"name":"Charlotte Maher Park",
+		"lat":43.7121471,
+		"lon":-79.3810145,
+		"desc":"Near Eglinton Ave E x Bayview Ave",
+		"note":"No stroller access from Broadway Ave ",
+		"rating":3,
+		"images":[]
+	},
+	{
+		"id":"10",
+		"name":"Greenbelt Park",
+		"lat":43.7307359,
+		"lon":-79.334225,
+		"desc":"Near Don mills Rd x Lawrence Ave E ",
+		"note":"",
+		"rating":4,
+		"images":[]
 	}
-],
-"props":{
-	"washrooms":true,
-	"tables":false
-},
-"details":{
-	"Chairs":"Many"
-	}
-
-}
-
 ]}
