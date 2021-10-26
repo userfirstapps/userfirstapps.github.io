@@ -84,8 +84,18 @@
 		"name":"Greenbelt Park",
 		"lat":43.7307359,
 		"lon":-79.334225,
-		"desc":"Near Don mills Rd x Lawrence Ave E ",
+		"desc":"Near Don mills Rd x Lawrence Ave E",
 		"note":"",
+		"rating":4,
+		"images":[]
+	},
+	{
+		"id":"14",
+		"name":"Margaret Fairley Park",
+		"lat":43.6601986,
+		"lon":-79.4057605,
+		"desc":"Near Harbord St x Brunswick Ave",
+		"note":"Gates",
 		"rating":4,
 		"images":[]
 	}
