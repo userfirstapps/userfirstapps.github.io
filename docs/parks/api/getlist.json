@@ -9,7 +9,7 @@
 		"rating":3,
 		"images":[
 			{
-				"url":"2/2-1.jpg",
+				"url":"2/2-1.jpg"
 			}
 		]
 	},
@@ -24,23 +24,23 @@
 		"images":[
 			{
 				"url":"3/3-1.jpg",
-				"thumb":"3/3-1-t.jpg",
+				"thumb":"3/3-1-t.jpg"
 			},
 			{
 				"url":"3/3-2.jpg",
-				"thumb":"3/3-2-t.jpg",
+				"thumb":"3/3-2-t.jpg"
 			},
 			{
 				"url":"3/3-3.jpg",
-				"thumb":"3/3-3-t.jpg",
+				"thumb":"3/3-3-t.jpg"
 			},
 			{
 				"url":"3/3-4.jpg",
-				"thumb":"3/3-4-t.jpg",
+				"thumb":"3/3-4-t.jpg"
 			},
 			{
 				"url":"3/3-5.jpg",
-				"thumb":"3/3-5-t.jpg",
+				"thumb":"3/3-5-t.jpg"
 			}
 		]
 	},
