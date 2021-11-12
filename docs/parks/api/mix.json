@@ -1740,7 +1740,7 @@
 {"count":185,"lon":-79.361690,"lat":43.658002,"name":"Regent Park Community Centre","address":"402 Shuter St.","link":"/data/parks/prd/facilities/complex/3502/index.html","district":"Toronto and East York","phone":"416-392-5490","id":"cc-3502"},
 {"count":186,"lon":-79.394596,"lat":43.63962,"name":"Canoe Landing Community Recreation Centre","address":"45 Fort York Blvd. ","link":"/data/parks/prd/facilities/complex/3643/index.html","district":"Toronto and East York","intersection":"Spadina Avenue and Lakeshore Boulevard","phone":"416-397-4200","id":"cc-3643"}
 ],"poi":[
-{"id":"50000","name":"Ontario Science Centre","lat":43.71675236491189,"lon":-79.33868901786953,"desc":"Popular interactive exhibits on science & technology, plus touring shows & an IMAX cinema.","note":"","rating":5,"images":[]},
+{"id":"50000","name":"Ontario Science Centre","lat":43.71675236491189,"lon":-79.33868901786953,"desc":"Popular interactive exhibits on science & technology, plus touring shows & an IMAX cinema.","note":"","rating":5,"images":[]}
 ],"indoor":[
 ],"manual":[
 {"id":"m-2","name":"Ferrand Drive Park","lat":43.7199393,"lon":-79.3326493,"desc":"Eglinton Ave E x Don Mills RD","note":"Flemingdon park area","rating":3,"images":[{"url":"2/2-1.jpg"}]},
