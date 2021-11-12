@@ -404,7 +404,7 @@
 {"id":"585","lon":-79.32969899,"lat":43.71377826,"intersection":"Grenoble Dr & Spanbridge Rd","size":133871,"name":"Flemingdon Park","link":"/data/parks/prd/facilities/complex/585/index.html","playground":4,"splashPad":1},
 {"id":"586","lon":-79.31682071,"lat":43.76981329,"intersection":"Pharmacy Ave & Seabury Gate","size":61171,"name":"Wishing Well Park","link":"/data/parks/prd/facilities/complex/586/index.html","playground":1,"washroom":1},
 {"id":"587","lon":-79.17087662,"lat":43.80111738,"intersection":"Dean Park Rd & Red River Cres","size":35130,"name":"Dean Park","link":"/data/parks/prd/facilities/complex/587/index.html","playground":1},
-{"id":"588","lon":-79.44479078,"lat":43.72125375,"intersection":"Flemington Rd & Varna Dr","size":30283,"name":"Flemington Park","link":"/data/parks/prd/facilities/complex/588/index.html","playground":2,"splashPad":"2 Splash Pads"},
+{"id":"588","lon":-79.44479078,"lat":43.72125375,"intersection":"Flemington Rd & Varna Dr","size":30283,"name":"Flemington Park","link":"/data/parks/prd/facilities/complex/588/index.html","playground":2,"splashPad":2},
 {"id":"589","lon":-79.22211018,"lat":43.76566868,"intersection":"Hiscock Blvd & Wortham Dr","size":45741,"name":"Densgrove Park","link":"/data/parks/prd/facilities/complex/589/index.html","playground":1},
 {"id":"590","lon":-79.21078818,"lat":43.78819505,"intersection":"Military Trail & Neilson Rd","size":43357,"name":"Seven Oaks Park","link":"/data/parks/prd/facilities/complex/590/index.html","playground":1,"splashPad":1},
 {"id":"592","lon":-79.22728021,"lat":43.79338466,"intersection":"Burrows Hall Blvd & Purvis Cres","size":97553,"name":"Burrows Hall Park","link":"/data/parks/prd/facilities/complex/592/index.html","playground":1},
