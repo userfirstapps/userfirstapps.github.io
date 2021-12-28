@@ -1752,6 +1752,6 @@
 {"id":"m-8","name":"Warner Park","lat":43.7244194,"lon":-79.3059425,"desc":"Eglington Ave E x Victoria Park Ave","note":"Newer equipment ","rating":3,"images":[]},
 {"id":"m-9","name":"Charlotte Maher Park","lat":43.7121471,"lon":-79.3810145,"desc":"Near Eglinton Ave E x Bayview Ave","note":"No stroller access from Broadway Ave ","rating":3,"images":[]},
 {"id":"m-10","name":"Greenbelt Park","lat":43.7307359,"lon":-79.334225,"desc":"Near Don mills Rd x Lawrence Ave E","note":"","rating":4,"images":[]},
-{"id":"m-14","name":"Margaret Fairley Park","lat":43.6601986,"lon":-79.4057605,"desc":"Near Harbord St x Brunswick Ave","note":"Gates","rating":4,"images":[]}
+{"id":"m-14","name":"Margaret Fairley Park","lat":43.6601986,"lon":-79.4057605,"desc":"Near Harbord St x Brunswick Ave","note":"Gates","rating":4}
 ],"business":[
 ]}
