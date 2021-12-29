@@ -1,0 +1,239 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>U1st</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/reset.css" type="text/css" />
+    <script type="text/javascript" src="components/header.js"></script>
+</head>
+
+<body>
+    <header-component></header-component>
+    <main>
+    </main>
+</body>
+
+</html>
+<!-- <!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>U1st</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="stylesheets/reset.css" type="text/css" />
+    <style>
+        header {
+            background-color: #00BFFF;
+            width: 100%;
+            height: 72px;
+        }
+
+        .header_nav_container {
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            max-width: 100%;
+            padding: 0 40px;
+            height: 100%;
+        }
+
+        .header_nav {
+            width: 100%;
+        }
+
+        .header_nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        .header_nav li {
+            margin-right: 45px;
+        }
+
+        .header_menu ul {
+            display: flex;
+        }
+
+        .header_menu li {
+            margin-left: 16px;
+        }
+
+        .header_nav_top {
+            display: none;
+        }
+
+        .header_nav_bottom {
+            display: none;
+        }
+
+        .bottom_nav_sp_container{
+                display: none;
+            }
+
+        @media screen and (max-width: 900px) {
+            header {
+                width: 100%;
+                height: 72px;
+                background-color: #00BFFF;
+            }
+
+            .header_nav_top {
+                height: 36px;
+                width: 100%;
+                align-items: center;
+                display: flex;
+                justify-content: space-between;
+                padding: 0 20px;
+            }
+
+            .header_nav_bottom {
+                height: 36px;
+                width: 100%;
+                padding: 0 20px;
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .header_nav_bottom ul {
+                display: flex;
+                justify-content: center;
+            }
+
+            .header_nav_bottom li {
+                margin-right: 20px;
+                margin-left: 20px;
+            }
+
+            .header_nav_container {
+                display: none;
+            }
+            .bottom_nav_sp_container{
+                display: none;
+            }
+
+        }
+
+        @media screen and (max-width: 524px) {
+
+            .bottom_nav_sp_container{
+                width: 100%;
+                height: 80px;
+                display: initial;
+                resize: none;
+            }
+            .bottom_nav_sp{
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                background-color: #00BFFF;
+                width: 100%;
+                height: 80px;
+                display: flex;
+                align-items: center;
+            }
+
+            .bottom_nav_sp li {
+                display: table;
+                table-layout: fixed;
+                width: 100%;
+                padding: 5px;
+                list-style: none;
+                text-align: center;
+            }
+
+            .bottom_nav_sp a span {
+                display: block;
+                font-size: 12px;
+            }
+
+            .bottom_nav_sp span{
+                margin-top: 8px;
+            }
+
+            .bottom_nav_sp img{
+                width: 24px;
+                height: 24px;
+            }
+
+            header{
+                display: none;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header_nav_container">
+            <div class="header_logo">U1st</div>
+            <div class="header_nav">
+                <ul>
+                    <li class="nav_item"><a href="#">HOME</a></li>
+                    <li class="nav_item"><a href="news.html">NEWS</a></li>
+                    <li class="nav_item"><a href="process.html">PROCESS</a></li>
+                    <li class="nav_item"><a href="portfolio.html">PORTFOLIO</a></li>
+                    <li class="nav_item"><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="header_menu">
+                <ul>
+                    <li>Day|Night</li>
+                    <li>Lan</li>
+                </ul>
+            </div>
+        </div>
+        <div class="header_nav_top">
+            <div class="header_logo">U1st</div>
+            <div class="header_menu">
+                <ul>
+                    <li>Day|Night</li>
+                    <li>Lan</li>
+                </ul>
+            </div>
+        </div>
+        <div class="header_nav_bottom">
+            <ul>
+                <li class="nav_item"><a href="#">HOME</a></li>
+                <li class="nav_item"><a href="news.html">NEWS</a></li>
+                <li class="nav_item"><a href="process.html">PROCESS</a></li>
+                <li class="nav_item"><a href="portfolio.html">PORTFOLIO</a></li>
+                <li class="nav_item"><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="bottom_nav_sp_container">
+        <ul class="bottom_nav_sp">
+            <li>
+                <a href="#"><img src="images/nav_icon/home.png" /><br>
+                    <span class="icon_name">HOME</span></a>
+            </li>
+            <li>
+                <a href="news.html"><img src="images/nav_icon/news.png" /><br>
+                    <span class="icon_name">NEWS</span></a>
+            </li>
+            <li>
+                <a href="process.html"><img src="images/nav_icon/iteration.png" /><br>
+                    <span class="icon_name">PROCESS</span></a>
+            </li>
+            <li>
+                <a href="portfolio.html"><img src="images/nav_icon/portfolio.png" /><br>
+                    <span class="icon_name">PORTFOLIO</span></a>
+            </li>
+            <li>
+                <a href="contact.html"><img src="images/nav_icon/phone.png" /><br>
+                    <span class="icon_name">CONTACT</span></a>
+            </li>
+        </ul>
+    </div>
+
+
+
+</body>
+
+</html> -->
