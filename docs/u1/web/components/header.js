@@ -54,11 +54,7 @@ header {
     margin-left: 16px;
 }
 
-.header_nav_top {
-    display: none;
-}
-
-.header_nav_bottom {
+.header_nav_tb {
     display: none;
 }
 
@@ -69,66 +65,68 @@ header {
 @media screen and (max-width: 901px) and (min-width: 900px) {}
 
 @media screen and (max-width: 900px) {
-    header {
+    .header_nav_tb {
+        display: initial;
         width: 100%;
-        height: 72px;
-        background-color: #00BFFF;
+        height: 124px;
     }
 
     .header_nav_top {
-        height: 36px;
+        height: 72px;
         width: 100%;
         align-items: center;
         display: flex;
         justify-content: space-between;
         padding: 0 40px;
+        background-color: #00BFFF;
     }
 
-    @keyframes header_nav_top_ani {
-        0% {
-            transform: translateY(18px);
-        }
-
-        100% {
-            transform: translateY(0px);
-        }
+    .tab_container {
+        padding-bottom: 1em;
+        background-color: #fff;
+        border-top: 1px solid #fff;
+        margin: 0 auto;
     }
 
-    .header_nav_top_ani {
-        animation: header_nav_top_ani 500ms forwards;
+    .tab_item {
+        width: calc(100%/5);
+        padding: 15px 0;
+        background-color: #ececec;
+        text-align: center;
+        color: #00BFFF;
+        display: block;
+        float: left;
+        text-align: center;
+        font-weight: bold;
+        transition: all 0.2s ease;
     }
 
-    @keyframes header_nav_bottom_ani {
-        0% {
-            transform: translateY(-18px);
-        }
-
-        100% {
-            transform: translateY(0px);
-        }
+    .tab_item:hover {
+        opacity: 0.75;
     }
 
-    .header_nav_bottom_ani {
-        animation: header_nav_bottom_ani 500ms forwards;
+    input[name="tab_item"] {
+        display: none;
     }
 
-    .header_nav_bottom {
-        height: 36px;
-        width: 100%;
-        padding: 0 20px;
-        align-items: center;
-        display: flex;
-        justify-content: center;
+    .tab_content {
+        display: none;
+        padding: 1em 1em 0;
+        clear: both;
+        overflow: hidden;
     }
 
-    .header_nav_bottom ul {
-        display: flex;
-        justify-content: center;
+    #tab1:checked~#tab1_content,
+    #tab2:checked~#tab2_content,
+    #tab3:checked~#tab3_content,
+    #tab4:checked~#tab4_content,
+    #tab5:checked~#tab5_content {
+        display: block;
     }
 
-    .header_nav_bottom li {
-        margin-right: 20px;
-        margin-left: 20px;
+    .tab_container :checked+.tab_item {
+        background-color: rgba(0, 191, 255, 0.4);
+        color: #fff;
     }
 
     .header_nav_container {
@@ -217,23 +215,57 @@ header {
     </div>
 </div>
 
-<div class="header_nav_top">
-    <div class="header_logo header_nav_top_ani">U1st</div>
-    <div class="header_menu header_nav_top_ani">
-        <ul>
-            <li>Day|Night</li>
-            <li>Lan</li>
-        </ul>
+<div class="header_nav_tb">
+
+    <div class="header_nav_top">
+        <div class="header_logo header_nav_top_ani">U1st</div>
+        <div class="header_menu header_nav_top_ani">
+            <ul>
+                <li>Day|Night</li>
+                <li>Lan</li>
+            </ul>
+        </div>
     </div>
-</div>
-<div class="header_nav_bottom">
-    <ul class="header_nav_bottom_ani">
-        <li class="nav_item"><a href="home.html">HOME</a></li>
-        <li class="nav_item"><a href="news.html">NEWS</a></li>
-        <li class="nav_item"><a href="process.html">PROCESS</a></li>
-        <li class="nav_item"><a href="portfolio.html">PORTFOLIO</a></li>
-        <li class="nav_item"><a href="contact.html">CONTACT</a></li>
-    </ul>
+
+    <div class="tab_container">
+        <input id="tab1" type="radio" name="tab_item" checked>
+        <label class="tab_item" for="tab1">HOME</label>
+        <input id="tab2" type="radio" name="tab_item">
+        <label class="tab_item" for="tab2">NEWS</label>
+        <input id="tab3" type="radio" name="tab_item">
+        <label class="tab_item" for="tab3">PROCESS</label>
+        <input id="tab4" type="radio" name="tab_item">
+        <label class="tab_item" for="tab4">PORTFOLIO</label>
+        <input id="tab5" type="radio" name="tab_item">
+        <label class="tab_item" for="tab5">CONTACT</label>
+
+        <div class="tab_content" id="tab1_content">
+            <div class="tab_content_description">
+                <p class="c-txtsp">HOME</p>
+            </div>
+        </div>
+        <div class="tab_content" id="tab2_content">
+            <div class="tab_content_description">
+                <p class="c-txtsp">NEWS</p>
+            </div>
+        </div>
+        <div class="tab_content" id="tab3_content">
+            <div class="tab_content_description">
+                <p class="c-txtsp">PROCESS</p>
+            </div>
+        </div>
+        <div class="tab_content" id="tab4_content">
+            <div class="tab_content_description">
+                <p class="c-txtsp">PORTFOLIO</p>
+            </div>
+        </div>
+        <div class="tab_content" id="tab5_content">
+            <div class="tab_content_description">
+                <p class="c-txtsp">CONTACT</p>
+            </div>
+        </div>
+    </div>
+
 </div>
 </header>
 
