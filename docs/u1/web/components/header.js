@@ -97,7 +97,7 @@ header {
         display: block;
         float: left;
         text-align: center;
-        font-weight: bold;
+        font-size: 12px;
         transition: all 0.2s ease;
     }
 
