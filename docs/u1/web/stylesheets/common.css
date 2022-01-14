@@ -60,52 +60,38 @@ header {
         background-color: #00BFFF;
     }
 
-    .tab_container {
-        padding-bottom: 1em;
-        background-color: #fff;
+    .header_nav_bottom{
+        height: 48px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
         border-top: 1px solid #fff;
-        margin: 0 auto;
     }
 
-    .tab_item {
-        width: calc(100%/5);
-        padding: 15px 0;
+    .header_nav_bottom ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
         background-color: #ececec;
-        text-align: center;
         color: #00BFFF;
+    }
+
+    .header_nav_bottom li{
+        flex: 1;
+    }
+
+    .tab_nav_item a {
+        height: 48px;
+        line-height: 48px;
         display: block;
-        float: left;
         text-align: center;
-        transition: all 0.2s ease;
         font-size: 14px;
+        transition: all 0.3s ease;
     }
 
-    .tab_item:hover {
+    .header_nav_bottom a:hover {
         opacity: 0.75;
-    }
-
-    input[name="tab_item"] {
-        display: none;
-    }
-
-    .tab_content {
-        display: none;
-        padding: 1em 1em 0;
-        clear: both;
-        overflow: hidden;
-    }
-
-    #tab1:checked~#tab1_content,
-    #tab2:checked~#tab2_content,
-    #tab3:checked~#tab3_content,
-    #tab4:checked~#tab4_content,
-    #tab5:checked~#tab5_content {
-        display: block;
-    }
-
-    .tab_container :checked+.tab_item {
-        background-color: rgba(0, 191, 255, 0.4);
-        color: #fff;
     }
 
     .header_nav_container {

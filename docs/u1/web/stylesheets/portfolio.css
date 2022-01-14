@@ -55,6 +55,12 @@
   .secondary {
     justify-content: space-around;
   }
+
+  /*tab nav*/
+  .tab_nav_item_portfolio {
+    background-color: rgba(0, 191, 255, 0.4);
+    color: #FFF;
+  }
 }
 
 @media all and (max-width: 380px) {
@@ -185,3 +191,5 @@ width: 100%;
 display: initial;
 }
 }
+
+
