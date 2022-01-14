@@ -147,6 +147,7 @@ p {
     background-image: url("https://images.unsplash.com/photo-1610473254734-f22b13aef65b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fHRvcm9udG98ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60");
     background-size: cover;
     position: relative;
+    margin-top: 0px
 }
 
 /* content */
