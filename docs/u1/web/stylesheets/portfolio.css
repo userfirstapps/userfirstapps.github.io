@@ -56,6 +56,10 @@
     justify-content: space-around;
   }
 
+  .hero-image{
+    margin-top: 49px;
+  }
+
   /*tab nav*/
   .tab_nav_item_portfolio {
     background-color: rgba(0, 191, 255, 0.4);
