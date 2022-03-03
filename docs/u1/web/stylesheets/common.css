@@ -104,7 +104,7 @@ header {
 
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 480px) {
 
     .bottom_nav_sp_container {
         width: 100%;
