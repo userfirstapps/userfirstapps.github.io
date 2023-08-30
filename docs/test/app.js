@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
     loading();
     
     //fetch
-    fetch(`/pages/${pagePath}`)
+    fetch(`pages/${pagePath}`)
       .then((response) => response.text())
       .then((content) => {
         document.getElementById("content").innerHTML = content;
