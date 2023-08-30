@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // sub nav
     "/home/page1": "home_page1.html",
     "/home/page2": "home_page2.html",
-    404: "404.html",
+    //404: "404.html",
   };
 
   function loading() {
@@ -27,9 +27,9 @@ document.addEventListener("DOMContentLoaded", () => {
       .then((content) => {
         document.getElementById("content").innerHTML = content;
         // hide loading div
-        //if (push) {
-          history.pushState(null, null, url);
-        //}
+        if (push) {
+          history.pushState({url}, null, url);
+        }
       })
       .catch((error) => {
         console.error("Error loading page:", error);
