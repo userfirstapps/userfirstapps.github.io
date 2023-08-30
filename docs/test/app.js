@@ -17,11 +17,13 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function navigateToPage(url, push) {
+    console.log("navigateToPage: ", url);
     const pagePath = routes[url] || "404.html";
     navigateToUrl(`pages/${pagePath}`, push);
   }
 
   function navigateToUrl(url, push) {
+    console.log("navigateToUrl: ", url);
     //const pagePath = routes[url] || "404.html";
     
     loading();
@@ -37,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       })
       .catch((error) => {
-        console.error("Error loading page:", error);
+        console.error("Error loading page: ", error);
         //hide loading div
         document.getElementById("content").innerHTML = "Error loading page.";
       });
@@ -53,6 +55,8 @@ document.addEventListener("DOMContentLoaded", () => {
   window.addEventListener("popstate", () => {
     if (event.state && event.state.url) {
       navigateToPage(event.state.url, false);
+    } else {
+      console.log("Pop was null");
     }
   });
 
