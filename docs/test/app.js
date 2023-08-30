@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function navigateToUrl(url, push) {
-    const pagePath = routes[url] || "404.html";
+    //const pagePath = routes[url] || "404.html";
     
     loading();
     
@@ -56,5 +56,5 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  navigateToUrl(window.location.pathname, false)
+  navigateToPage(window.location.pathname, false)
 });
