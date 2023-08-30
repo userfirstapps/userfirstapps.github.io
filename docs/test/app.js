@@ -16,20 +16,20 @@ document.addEventListener("DOMContentLoaded", () => {
     // show loading div
   }
 
-  function navigateToPage(url, push) {
-    console.log("navigateToPage: ", url);
-    const pagePath = routes[url] || "404.html";
-    navigateToUrl(`pages/${pagePath}`, push);
-  }
+  // function navigateToPage(url, push) {
+  //   console.log("navigateToPage: ", url);
+  //   const pagePath = routes[url] || "404.html";
+  //   navigateToUrl(`pages/${pagePath}`, push);
+  // }
 
-  function navigateToUrl(url, push) {
+  function navigateToPage(url, push) {
     console.log("navigateToUrl: ", url);
-    //const pagePath = routes[url] || "404.html";
+    const pagePath = routes[url] || "404.html";
     
     loading();
     
     //fetch
-    fetch(`${url}`)
+    fetch(`pages/${pagePath}`)
       .then((response) => response.text())
       .then((content) => {
         document.getElementById("content").innerHTML = content;
@@ -60,5 +60,5 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  navigateToPage(window.location.pathname, false)
+  //navigateToPage(window.location.pathname, false)
 });
