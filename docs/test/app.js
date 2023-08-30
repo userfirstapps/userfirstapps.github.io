@@ -27,9 +27,9 @@ document.addEventListener("DOMContentLoaded", () => {
       .then((content) => {
         document.getElementById("content").innerHTML = content;
         // hide loading div
-        if (push) {
+        //if (push) {
           history.pushState(null, null, url);
-        }
+        //}
       })
       .catch((error) => {
         console.error("Error loading page:", error);
