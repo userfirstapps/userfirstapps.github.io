@@ -9,8 +9,8 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/test/",
-  "scope": "/test/",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#007bff"
