@@ -1,0 +1,17 @@
+{
+  "name": "User First Apps",
+  "short_name": "U1st Apps",
+  "description": "User First Apps: Homepage",
+  "icons": [
+    {
+      "src": "./path/to/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "https://userfirstapps.github.io/test/",
+  "scope": "https://userfirstapps.github.io/test/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#007bff"
+}
