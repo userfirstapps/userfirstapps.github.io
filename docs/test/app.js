@@ -18,11 +18,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function navigateToPage(url, push) {
     const pagePath = routes[url] || "404.html";
+    navigateToUrl(`pages/${pagePath}`, push);
+  }
+
+  function navigateToUrl(url, push) {
+    const pagePath = routes[url] || "404.html";
     
     loading();
     
     //fetch
-    fetch(`pages/${pagePath}`)
+    fetch(`${url}`)
       .then((response) => response.text())
       .then((content) => {
         document.getElementById("content").innerHTML = content;
@@ -50,4 +55,6 @@ document.addEventListener("DOMContentLoaded", () => {
       navigateToPage(event.state.url, false);
     }
   });
+
+  navigateToUrl(window.location.pathname, false)
 });
