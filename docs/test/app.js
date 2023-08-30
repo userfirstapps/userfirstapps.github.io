@@ -46,6 +46,8 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   window.addEventListener("popstate", () => {
-    navigateToPage(location.pathname, false);
+    if (event.state && event.state.url) {
+      navigateToPage(event.state.url, false);
+    }
   });
 });
