@@ -23,8 +23,9 @@ document.addEventListener("DOMContentLoaded", () => {
   // }
 
   function navigateToPage(url, push) {
-    console.log("navigateToUrl: ", url);
+    console.log("navigateToPage: ", url);
     const pagePath = routes[url] || "404.html";
+    console.log("pagePath: ", pagePath);
     
     loading();
     
