@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const routes = {
     // main nav
-//    "": "home.html",
+    "": "home.html",
     "?": "home.html",
     "?1": "1.html",
     "?2": "2.html",
@@ -59,8 +59,9 @@ document.addEventListener("DOMContentLoaded", () => {
       navigateToPage(event.state.url, false);
     } else {
       console.log("Pop was null");
+      navigateToPage(event.state.url, false);
     }
   });
-  navigateToPage("?" + window.location.search, false)
+  navigateToPage(window.location.search, false)
   //navigateToPage(window.location.pathname, false)
 });
