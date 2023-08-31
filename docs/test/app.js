@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
   const routes = {
     // main nav
-    "": "home.html",
+//    "": "home.html",
+    "?": "home.html",
     "?1": "1.html",
     "?2": "2.html",
     "about": "about.html",
