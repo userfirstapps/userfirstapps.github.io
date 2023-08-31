@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
       navigateToPage(event.state.url, false);
     } else {
       console.log("Pop was null");
-      navigateToPage(event.state.url, false);
+      navigateToPage("?", false);
     }
   });
   navigateToPage(window.location.search, false)
