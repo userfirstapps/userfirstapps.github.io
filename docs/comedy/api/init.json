@@ -1,6 +1,4 @@
 {
-
-
    "theatres":[
        {
           "address":"1137 Bute st",
@@ -11,7 +9,6 @@
           "lat":79.000123,
           "lon":120.23445,
           "menu_url":"http://food.com"
-          
        }
    ],
    "comedians":[
