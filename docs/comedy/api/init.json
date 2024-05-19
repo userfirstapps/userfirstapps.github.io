@@ -1,1 +1,56 @@
-{}
+{
+
+
+   "theatres":[
+       {
+          "address":"1137 Bute st",
+          "phone":"911",
+          "name":"Tucker's laughs",
+          "picture_url":"http://mypic.com/123.jpg",
+          "id":"123",
+          "lat":79.000123,
+          "lon":120.23445,
+          "menu_url":"http://food.com"
+          
+       }
+   ],
+   "comedians":[
+       {
+           "id":"yug2y3g2",
+           "name":"Steve",
+           "stageName":"Poopy puppy",
+           "genre":"blah",
+           "insta":"url",
+           "pic_url":"soijdgsoidjgf"
+       },
+       {
+           "id":"98089",
+           "name":"Airi",
+           "stageName":"Happy Cassie",
+           "genre":"blah",
+           "insta":"url",
+           "pic_url":"soijdgsoidjgf"
+       }
+
+   ],
+   "shows":[
+       {
+           "id":"xyz",
+           "name":"Savage Comedy",
+           "theatre":"123",
+           "startDate":"2024-05-20T19:30:00Z",
+           "endDate":"2024-05-20T21:30:00Z",
+           "performers":["yug2y3g2", "98089"]
+       },
+       {
+           "id":"334",
+           "name":"Savage Comedy",
+           "theatre":"123",
+           "startDate":"2024-05-20T19:30:00Z",
+           "endDate":"2024-05-20T21:30:00Z",
+           "performers":["yug2y3g2", "98089"]
+       }
+
+   ]
+
+}
